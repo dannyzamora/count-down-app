@@ -3,5 +3,7 @@ import ReactDom from 'react-dom';
 import 'normalize.css/normalize.css';
 import './styles/style.scss'
 
+import CountDownApp from './components/CountDownApp'
 
-ReactDom.render(<p>boilerplate</p>, document.getElementById('app'));
+
+ReactDom.render(<CountDownApp/>, document.getElementById('app'));
